@@ -1,0 +1,95 @@
+/*PRINCIPAIS*/
+body{
+	background-color: rgb(123, 158, 135);
+	margin: 0%;
+}
+
+
+/*TEXTOS*/
+h1{
+    color: rgb(210, 208, 186);
+    text-shadow: 2px 1px 1px rgb(94, 116, 127);
+    font-size: 50px;
+    text-indent: 30px;
+    font-family: Kanit, sans-serif;
+    text-align: center;
+}
+h2{
+	color: rgb(210, 208, 186);
+	text-align: center;
+	font-size: 22px;
+	font-family: Roboto, sans-serif;
+}
+p{
+	color: rgb(210, 208, 186);
+	font-family: Roboto, sans-serif;
+}
+
+
+/*HOME PAGE*/
+.homepage{
+	border:  5px solid;
+	border-radius: 3px;
+	width: 60vw;
+	height: 45vh;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 7%;
+	border-color: rgb(182, 190, 156);
+	background-image: url(space.jpg);
+}
+
+
+/*HEADER*/
+.cabeca{
+	overflow: hidden;
+	background-color:rgb(94, 116, 127);
+	position: fixed;
+	display: flex;
+	top: 0;
+	width: 100%;
+	text-transform: capitalize;
+	text-align: center;
+}
+.cabeca a{
+	float: left;
+	display: block;
+	color: rgb(123, 158, 135);
+    text-shadow: 1px 1px 1px rgb(210, 208, 186);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: all, 0.3s;
+}
+.cabeca:hover{
+	background:rgb(182, 190, 156);
+	color:rgb(94, 116, 127);
+}
+.baixo{
+	overflow: hidden;
+	background-color:rgb(210, 208, 186);
+	position: fixed;
+	display: flex;
+	bottom: 0;
+	width: 100%;
+	text-transform: capitalize;
+	text-align: center;
+}
+.letracabeca{
+	font-family: Bebas Neue, sans-serif;
+    color: rgb(210, 208, 186);
+	font-size: 25px;
+}
+.letracabeca:hover{
+	font-family: Bebas Neue, sans-serif;
+    font-size: 25px;
+	color: rgb(210, 208, 186);
+	background-color: rgb(123, 158, 135);
+	transition: all, 0.2s;
+}
+
+
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
