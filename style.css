@@ -12,7 +12,6 @@ h1{
     font-size: 50px;
     text-indent: 30px;
     font-family: Kanit, sans-serif;
-    text-align: center;
 }
 h2{
 	color: rgb(210, 208, 186);
@@ -23,6 +22,20 @@ h2{
 p{
 	color: rgb(210, 208, 186);
 	font-family: Roboto, sans-serif;
+	text-indent: 4%;
+	font-weight: bold;
+}
+ul{
+	color: rgb(210, 208, 186);
+	font-family: Roboto, sans-serif;
+}
+
+
+/*DIVS*/
+.box{
+	width: 500px;
+	display: inline-block;
+	text-align: center;
 }
 
 
