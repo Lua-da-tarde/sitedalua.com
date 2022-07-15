@@ -29,6 +29,13 @@ ul{
 	color: rgb(210, 208, 186);
 	font-family: Roboto, sans-serif;
 }
+.letraA{
+	color: rgb(210, 208, 186);
+	text-shadow: 3px 3px 3px rgb(123, 158, 135);
+	font-family: Bebas Neue, sans-serif;
+	font-size: 50px;
+	text-indent: 30px;
+}
 
 
 /*DIVS*/
@@ -36,6 +43,62 @@ ul{
 	width: 500px;
 	display: inline-block;
 	text-align: center;
+}
+
+.instabox{
+	color: rgb(182, 190, 156);
+	background-color: rgb(94, 116, 127);
+	opacity: 0.8s;
+	height: 300px;
+	width: 30%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	margin-block-start: 50px;
+	display: inline-block;
+}
+
+.temasbox{
+	color: rgb(182, 190, 156);
+	background-color: rgb(94, 116, 127);
+	opacity: 0.8s;
+	height: 300px;
+	width: 50%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	margin-block-start: 50px;
+	display: inline-block;
+}
+	
+.postagensbox{	
+	color: rgb(94, 116, 127);
+	background-color: rgb(94, 116, 127);
+	opacity: 0.8s;
+	height: 300px;
+	width: 50%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	margin-block-start: 50px;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 0px;
+	border-color: rgb(210, 208, 186);
+}
+
+.playlistbox{
+	color: rgb(182, 190, 156);
+	background-color: rgb(94, 116, 127);
+	opacity: 0.8s;
+	height: 900px;
+	width: 90%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	margin-block-start: 50px;
+	display: inline-block;
 }
 
 
