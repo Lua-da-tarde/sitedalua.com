@@ -58,7 +58,7 @@ ul{
 .box{
 	width: 500px;
 	display: inline-block;
-	text-align: center;
+	text-indent: 8%;
 }
 
 .imagens{
@@ -93,6 +93,18 @@ ul{
 	color: rgb(182, 190, 156);
 	background-color: rgb(94, 116, 127);
 	opacity: 0.8s;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	margin-block-start: 50px;
+	display: inline-block;
+}
+
+.pinterestbox{
+	color: rgb(182, 190, 156);
+	background-color: rgb(94, 116, 127);
+	opacity: 0.8s;
+	width: 90%;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	margin: 30px;
