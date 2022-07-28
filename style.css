@@ -36,7 +36,13 @@ ul{
 	font-size: 50px;
 	text-indent: 30px;
 }
-
+.letraB{
+	color: rgb(210, 208, 186);
+	font-size: 100px;
+	font-variant: small-caps;
+	font-family: Kanit, sans-serif;
+	text-align: center;
+}
 
 /*IMAGENS*/
 .postagens{
